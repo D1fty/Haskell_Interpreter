@@ -6,8 +6,8 @@ import Data.Bool
 -- Input Main and getchar loops 
 main :: IO ()
 main = do putStrLn "--------------------------------------------------------------"
-          putStrLn "             159.341 Assignment 1 Semester 1 2021"
-          putStrLn "           Submitted by: Damien DeCourcy, 19042551"
+          putStrLn "                     String Interpreter"
+          putStrLn "           Authored by: Damien DeCourcy, 19042551"
           putStrLn "--------------------------------------------------------------"
           collectOne [] [("TAB", ['\t']), ("SPACE", [' ']), ("NEWLINE", ['\n'])] 1
 
